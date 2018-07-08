@@ -67,7 +67,7 @@ public class TestApplication {
 			server.setTrustAllServers(true);
 			server.start();
 			 
-		input = new FileInputStream(System.getProperty("user.dir")+"src/main/resources/xpath-values.properties");
+		input = new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/xpath-values.properties");
 		prop.load(input);
 		} catch (IOException ioe) {
 			System.out.println("Xpath file not found");
