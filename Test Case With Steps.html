@@ -1,0 +1,1250 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>ZFJ - Html Report for Executions</title>
+        <script type="text/javascript">
+        function altRows ( id ) {
+            if ( document.getElementsByTagName ) {
+                var table = document.getElementById ( id ) ;
+                var rows = table.getElementsByTagName ( "tr" ) ;
+                for ( i = 0 ; i < rows.length ; i ++ ) {
+                    if ( i % 2 == 0 ) {
+                        rows[ i ].className = "evenrowcolor" ;
+                    } else {
+                        rows[ i ].className = "oddrowcolor" ;
+                    }
+                }
+            }
+        }
+        window.onload = function ( ) {
+            altRows ( 'alternatecolor' ) ;
+        }
+        </script>
+        <style type="text/css">
+        table.altrowstable {
+            font-family : verdana, arial, sans-serif ;
+            font-size : 9px ;
+            padding-left : 50px ;
+            color : #333333 ;
+            border-width : 1px ;
+            border-color : #a9c6c9 ;
+            border-collapse : collapse ;
+        }
+        table.altrowstable th {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        table.altrowstable thead {
+            font-weight : bold ;
+        }
+        table.altrowstable td {
+            border-width : 1px ;
+            padding : 8px ;
+            border-style : solid ;
+            border-color : #a9c6c9 ;
+        }
+        .oddrowcolor {
+            background-color : #d4e3e5 ;
+        }
+        .evenrowcolor {
+            background-color : none ;
+        }
+        </style>
+    </head>
+    <body>
+        <table class="altrowstable" id="alternatecolor" border="1" cellspacing="0" cellpadding="0" style="padding-left : 50 px ; overflow-y = scroll ;">
+            <thead>
+                <th>ExecutionId</th>
+                <th>Cycle</th>
+                <th>Folder Name</th>
+                <th>Issue Key</th>
+                <th>Test Summary</th>
+                <th>Project</th>
+                <th>Component</th>
+                <th>Version</th>
+                <th>Priority</th>
+                <th>Executed By</th>
+                <th>Executed On</th>
+                <th>Execution Status</th>
+                <th>Execution Defect(s)</th>
+                <th>Creation Date</th>
+                <th>Assigned To</th>
+                <th>StepId</th>
+                <th>OrderId</th>
+                <th>Step</th>
+                <th>Test Data</th>
+                <th>Expected Result</th>
+                <th>Step Result</th>
+                <th>Comment</th>
+            </thead>
+            <tbody>
+            
+                
+                    <tr>
+                        <td rowspan="3">d4898e64-0c74-41b6-836e-308179657301</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-18</td>
+                        <td rowspan="3">Test Boundary Values on Date on Start Date</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:11 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>8a9e001c-7993-4429-ba3f-e61047314d9f</td>
+                            <td>1</td>
+                            <td><p>Load and login to application and edit on an item after selecting it.</p></td>
+                            <td></td>
+                            <td><p>Edit screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>6dc8289c-8ec8-421b-b43f-f0a5f62b6325</td>
+                            <td>2</td>
+                            <td><p>Enter date of start_date &#62;31 </p></td>
+                            <td><p>2011-12-32</p></td>
+                            <td><p>Home screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>bcc4251d-c186-4f22-b264-aa5a675109a7</td>
+                            <td>3</td>
+                            <td><p>Validate if the entry edited is still updated in the system</p></td>
+                            <td></td>
+                            <td><p>Date should not have changed and should be the old one.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">bee6205a-2a10-4e32-ad46-e824f476b5c0</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-19</td>
+                        <td rowspan="3">Test Invalid Email while creation of entry</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:12 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>feeb618e-ad28-4167-bdb5-0330053736f1</td>
+                            <td>1</td>
+                            <td><p>Load and login to application and click on create</p></td>
+                            <td></td>
+                            <td><p>Create screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>287a57fe-879c-4a79-94f1-eca6fa91c56a</td>
+                            <td>2</td>
+                            <td><p>Enter all valid entries except email</p></td>
+                            <td><p>a@a</p></td>
+                            <td><p>Home screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2f100736-5718-4a6d-9837-c85f3e842801</td>
+                            <td>3</td>
+                            <td><p>Validate that email should not have entered in the system</p></td>
+                            <td></td>
+                            <td><p>Email should not be present in created entry</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">4cbba5bb-2d28-4c6f-8423-2c273d8a2f9c</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-20</td>
+                        <td rowspan="3">Test Invalid Date while creation of entry</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:12 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>2ca973b9-b84e-4f2a-9369-3067a1f00a76</td>
+                            <td>1</td>
+                            <td><p>Load and login to application and click on create</p></td>
+                            <td></td>
+                            <td><p>Create screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>546cc5e9-5a69-4aa3-805b-570452352eb1</td>
+                            <td>2</td>
+                            <td><p>Enter all valid entries except date </p></td>
+                            <td><p>1899-01-01</p></td>
+                            <td><p>Invalid date error displayed</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>2241c702-7a80-447e-9c40-db0f825330f6</td>
+                            <td>3</td>
+                            <td><p>Validate user is created</p></td>
+                            <td></td>
+                            <td><p>New User should not have been created</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">2396c1e0-a19d-4d7c-a86b-eafdc685a97e</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-17</td>
+                        <td rowspan="3">Test Boundary Values on Month on Start Date</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:08 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>df0189af-55d6-4d0e-a5a1-baab033d5778</td>
+                            <td>1</td>
+                            <td><p>Load and login to application and edit on an item after selecting it.</p></td>
+                            <td></td>
+                            <td><p>Edit screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>c22f8443-af30-4d95-a212-439da3e8d861</td>
+                            <td>2</td>
+                            <td><p>Enter month of date &#62;12 </p></td>
+                            <td><p>2011-13-01</p></td>
+                            <td><p>Home screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e0dcc116-8340-4703-a6b9-87cf574daa1b</td>
+                            <td>3</td>
+                            <td><p>Validate if the entry edited is still updated in the system</p></td>
+                            <td></td>
+                            <td><p>Date should not have changed and should be the old one.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">c2d9ebd4-9b18-465f-8d4a-4b2a12b12aab</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-21</td>
+                        <td rowspan="2">Test syntax validation on Date field while creating users</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:12 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>09126103-3444-4f34-b2bf-23454099435d</td>
+                            <td>1</td>
+                            <td><p>Load the application and Login to system</p></td>
+                            <td></td>
+                            <td><p>Home screen is shown</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>df01b253-e074-4e19-984d-d06390e74178</td>
+                            <td>2</td>
+                            <td><p>Click on create button and enter valid names and email and given date ,click on Add</p></td>
+                            <td><p>2011-11-ab</p></td>
+                            <td><p>Application should throw error and data should not be entered</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">59dc4b53-53f0-4de1-a177-21cabecf99c9</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-22</td>
+                        <td rowspan="2">Test syntax validation on Email field while creating users</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:13 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>17ff20aa-dc51-4acf-a7a5-4a4abe08b9b1</td>
+                            <td>1</td>
+                            <td><p>Load the application and Login to system</p></td>
+                            <td></td>
+                            <td><p>Home screen is shown</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>8ad88fe4-602b-4122-92d2-25ce4a5ccbe6</td>
+                            <td>2</td>
+                            <td><p>Click on create button and enter valid names and date, given email  and click on Add</p></td>
+                            <td><p>aa@a</p></td>
+                            <td><p>Application should throw error and data should not be entered</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">36ac80f0-ef0f-421a-899f-f03a5bf2971d</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-2</td>
+                        <td rowspan="2">Test Login with invalid username</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>e790468b-5732-449d-9b6e-21c6596c7d8a</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url.</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>d58054bd-eb5b-4708-b871-57817ad40a9e</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the Username and Password page</p></td>
+                            <td><p>Username - *&LUKE</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and throw "Invalid username or password!"</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">11588fe0-6eff-470f-9c34-2c7443dd492e</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-3</td>
+                        <td rowspan="2">Test Login with invalid password</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>faab8125-6380-47bb-af43-71a0a550da0d</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>e2f1b25b-aa9e-47fe-b848-a2d62bb98fff</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywal</p></td>
+                            <td><p>Application to validate credentials and throw "Invalid username or password!"</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">36c5c4bf-9281-473e-a718-9a068a7a2f86</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-4</td>
+                        <td rowspan="2">Test Login with UpperCase/Lowercase Username</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>cd8be6f8-422f-467a-a0c9-1dbed58e802e</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>6148cd39-4086-43f4-b063-d0fdf4e6c96f</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - LUKE</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and throw "Invalid username or password!"</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">7b52c684-b1b3-4a0e-b6ed-97e02f99490b</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-5</td>
+                        <td rowspan="2">Test Login with UpperCase/Lowercase Password</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>f79e8045-0215-4150-a5e2-42c7805a666e</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b9889011-73f5-41bc-b7dd-7779b71a0182</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - SKYWALKER</p></td>
+                            <td><p>Application to validate credentials and throw "Invalid username or password!"</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="2">3c17215b-f73c-4d91-a82c-b44fe7751891</td>
+                        <td rowspan="2">TestCafe</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">CAF-6</td>
+                        <td rowspan="2">Test Login with valid credentials</td>
+                        <td rowspan="2">cafeTownSend</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Unscheduled</td>
+                        <td rowspan="2">Medium</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">UNEXECUTED</td>
+                        <td rowspan="2"></td>
+                        <td rowspan="2">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="2">Kumar Aarjab</td>
+                        
+                            <td>fd3fb121-a309-4c3b-bd5a-85da84bd5304</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>6e46e900-8e0a-4b9f-aec0-cf37dde1f945</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">4a6dea96-35bd-40d1-afcd-fc3fd73db896</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-7</td>
+                        <td rowspan="3">Test scroll operation in the list works as expected</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:14 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>c9f51865-54de-4f42-be18-cf0562bdfc8c</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b5ced38b-8829-4445-ab3b-2065d54ace09</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>73a8f83f-af04-420b-b2c2-98896d31ee3e</td>
+                            <td>3</td>
+                            <td><p>Scroll on the list to elements below the visible screen</p></td>
+                            <td></td>
+                            <td><p>List scrolls and is visible to be operated on.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">2c9fcc95-ade5-4b2e-b7ce-3a87cc28893f</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-8</td>
+                        <td rowspan="3">Test double click on an item loads the edit screen </td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:15 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>846af172-3112-4ead-8650-6c65173d36c4</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>7a0bb916-0023-48cf-aae7-4a14d766d843</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>e4d0f953-9b18-4af6-9541-b9d9ea7ae5eb</td>
+                            <td>3</td>
+                            <td><p>Double click on an item</p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">6a75cec4-a1ba-480f-b660-d68830cd4d3a</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-9</td>
+                        <td rowspan="3">Test click on edit button situated on homepage loads the edit screen </td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:15 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>c7f07e64-6dc8-42f2-8aa1-c4d82466c8f3</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>eeb153f5-dcdc-4237-a356-dab55ceee861</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d99b2e4a-7887-4355-b969-432c65bee4e7</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on edit button in home screen </p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">840a8a8e-81f3-498a-a90d-72fec73a21be</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-10</td>
+                        <td rowspan="6">Test start date can be modified on an existing user</td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:16 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>e5ff6132-7885-45a3-88a1-d47851220410</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>50cb500d-76f3-4cd8-9e7a-98ea80eac506</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>79152ddb-55f1-4109-b0e0-3d2184cfa491</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on edit button in home screen </p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>6d89f5a9-07c6-4605-9e6c-af63d7dce373</td>
+                            <td>4</td>
+                            <td><p>Clear the date and enter new random date in order of YYYY-MM-DD and click on update</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>dc66f81f-0533-4f0a-8542-8c2d89877f41</td>
+                            <td>5</td>
+                            <td><p>Scroll to the item in test and click on edit and verify if the edited item holds true.</p></td>
+                            <td></td>
+                            <td><p>Start Date should have been modified.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>0bb0ddf5-7fb4-4ae7-8c70-ac401ba6829c</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on update, capture the HTTP response and look which id got updated and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>Start Date is modified in HTTP response</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">293dd499-7721-48c4-8204-711a632cd02f</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-11</td>
+                        <td rowspan="6">Test First and Last name can be modified on an existing user</td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:16 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>048e5866-8d5e-41eb-a9f7-fc9b24893566</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>fc2a6d18-101e-4e58-9e48-d1308b446744</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>cd2e89a0-62ee-4967-8ca1-5d572da16f12</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on edit button in home screen </p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b8fe2bc7-6634-4309-a42c-bbe74dcbc85a</td>
+                            <td>4</td>
+                            <td><p>Clear the First and Last Name and enter text in both fields and click on update</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7f70daee-fb78-43a2-8dab-cb11755b2ef7</td>
+                            <td>5</td>
+                            <td><p>Scroll to the item in test and click on edit and verify if the edited item holds true.</p></td>
+                            <td></td>
+                            <td><p>Both the fields  should have been modified.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>c5c76e11-a58c-41b2-92e1-61ffd970cf10</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on update, capture the HTTP response and look which id got updated and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>Both the field is modified in HTTP response</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">50f6d2b2-2e9b-4841-b98e-7503e8af1a06</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-12</td>
+                        <td rowspan="6">Test delete on an item inside edit screen works as expected</td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:16 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>d4224ca8-8885-4349-ab25-e5146e2039b8</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>68de9de6-cb03-4141-9f0c-7784cb3c4f69</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>9d3703c8-43be-48dd-a31d-8e845702189f</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on edit button in home screen </p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d661ef83-2950-42c2-839f-cb162dbe0255</td>
+                            <td>4</td>
+                            <td><p>Click on Delete button and confirm on alert</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d8d2c67a-8a6c-4e68-83aa-f9dff70acb70</td>
+                            <td>5</td>
+                            <td><p>Scroll through list and verify if item is deleted.</p></td>
+                            <td></td>
+                            <td><p>Item should not be present</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>106be9c4-bad1-451f-bed2-aa4d28b0e5be</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on delete, capture the HTTP response and look which id got deleted and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>Id should not be found in consequent employee response.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">2b2a58ff-a9c7-498b-a907-add4e5827820</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-13</td>
+                        <td rowspan="6">Test delete on home screen works as expected</td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:17 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>9a6e14e0-697a-4728-b070-861c44136ac7</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>81d45fda-0873-4b98-b904-ae426fded1f5</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3aea18a8-810d-48e2-9160-dbb1e07c233b</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on delete button in home screen </p></td>
+                            <td></td>
+                            <td><p>Alert should be visible to confirm deletion</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>66dd1a6c-c426-49cb-92d5-f0fa82bfc380</td>
+                            <td>4</td>
+                            <td><p>Click confirm.</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>3db520f2-4745-4b09-92eb-c1eea5c9af6b</td>
+                            <td>5</td>
+                            <td><p>Scroll through list and verify if item is deleted.</p></td>
+                            <td></td>
+                            <td><p>Item should not be present</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>64f78144-36f0-454c-9983-fec817cab877</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on delete, capture the HTTP response and look which id got deleted and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>Id should not be found in consequent employee response.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">76a46abc-6247-4f0d-9879-e002a337ae0d</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-14</td>
+                        <td rowspan="6">Test create button functionality  on home screen </td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:17 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>cbc67bdb-1df0-4ac4-b89a-d139019dcaaa</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>9b482207-cce6-4f39-976c-ee3705b00346</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>d7852190-2f17-44f1-b60d-a70289ed7632</td>
+                            <td>3</td>
+                            <td><p>Click on create</p></td>
+                            <td></td>
+                            <td><p>Create screen appears with un- populated items </p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>a6e093f0-65b4-40a5-a1ad-1c1306b511e1</td>
+                            <td>4</td>
+                            <td><p>Enter valid details in First Name, Last Name, Date, Email and click on create</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>98cef1b6-5f5f-4f00-9802-bd4a58038d7f</td>
+                            <td>5</td>
+                            <td><p>Scroll through list and verify if new item is present.</p></td>
+                            <td></td>
+                            <td><p>Item should be present</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ba2e543e-55fa-46cb-8f46-cf99bbbc6f06</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on create, capture the HTTP response and look which id got created and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>New details should be present in HTTP response</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="6">1404702f-c280-4b1e-b64d-245b1202915d</td>
+                        <td rowspan="6">TestCafe</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">CAF-15</td>
+                        <td rowspan="6">Test Email can be modified on an existing user</td>
+                        <td rowspan="6">cafeTownSend</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Unscheduled</td>
+                        <td rowspan="6">Medium</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">UNEXECUTED</td>
+                        <td rowspan="6"></td>
+                        <td rowspan="6">Sun Jul 08 13:13:18 PDT 2018</td>
+                        <td rowspan="6">Kumar Aarjab</td>
+                        
+                            <td>1e2e8d87-db20-4b74-b5ee-a0f138b9ce1d</td>
+                            <td>1</td>
+                            <td><p>Launch application with given url</p></td>
+                            <td></td>
+                            <td><p>Web application is loaded and visible in browser</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>82148e79-f9db-4a27-ba27-8a5300c9fa75</td>
+                            <td>2</td>
+                            <td><p>Enter credentials on the loaded page</p></td>
+                            <td><p>Username - Luke</br>Password - Skywalker</p></td>
+                            <td><p>Application to validate credentials and load the application with populated list</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>1ed0dea5-30f0-4667-834e-05e807ec40ab</td>
+                            <td>3</td>
+                            <td><p>Select an item and click on edit button in home screen </p></td>
+                            <td></td>
+                            <td><p>Edit screen should be visible with update and delete buttons in screen</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>b05873ec-16a9-4eab-9f8b-f42689b2d206</td>
+                            <td>4</td>
+                            <td><p>Clear email and enter valid email Id and click on update</p></td>
+                            <td></td>
+                            <td><p>Home screen appears and list is loaded</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>7f88d22f-8efb-4b80-8ef9-d38b309a0671</td>
+                            <td>5</td>
+                            <td><p>Scroll to the item in test and click on edit and verify if the edited item holds true.</p></td>
+                            <td></td>
+                            <td><p>Email should have been modified.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>ea8b5921-936a-4f9d-a1b8-cb202af7dc9a</td>
+                            <td>6</td>
+                            <td><p>Also, from Step 4, it can be validated via HTTP capture. After click on update, capture the HTTP response and look which id got updated and then in second load of employees, check for the id and respective related data.</p></td>
+                            <td></td>
+                            <td><p>Email is modified in HTTP response</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+                
+                    <tr>
+                        <td rowspan="3">87353c53-bdf4-434f-8615-15235822c0ae</td>
+                        <td rowspan="3">TestCafe</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">CAF-16</td>
+                        <td rowspan="3">Test Boundary Values on Year on Start Date</td>
+                        <td rowspan="3">cafeTownSend</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Unscheduled</td>
+                        <td rowspan="3">Medium</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">UNEXECUTED</td>
+                        <td rowspan="3"></td>
+                        <td rowspan="3">Sun Jul 08 13:13:18 PDT 2018</td>
+                        <td rowspan="3">Kumar Aarjab</td>
+                        
+                            <td>14aaa24b-225b-4403-b79d-191666353e9c</td>
+                            <td>1</td>
+                            <td><p>Load and login to application and edit on an item after selecting it.</p></td>
+                            <td></td>
+                            <td><p>Edit screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        
+                    </tr>
+                    
+                        <tr>
+                            <td>b7c73ac2-d70c-4d20-b449-2ede5eaafd2f</td>
+                            <td>2</td>
+                            <td><p>Enter year of date below &#60;1900 and above &#62;=2100 and click on update</p></td>
+                            <td><p>1899-01-01</p></td>
+                            <td><p>Home screen is visible</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                        <tr>
+                            <td>966cdf1e-a45c-46c6-9bae-bd25917b4aea</td>
+                            <td>3</td>
+                            <td><p>Validate if the entry edited is still updated in the system</p></td>
+                            <td></td>
+                            <td><p>Date should not have changed and should be the old one.</p></td>
+                            <td>UNEXECUTED</td>
+                            <td></td>
+                        </tr>
+                    
+                
+            
+            </tbody>
+        </table>
+    </body>
+</html>

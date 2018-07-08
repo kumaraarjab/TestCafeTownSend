@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="TestSuite" parallel="false">
+	 <test name="ApplicationTestChrome">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.CafeTownSend.TestLogin" />
+			<class name="com.CafeTownSend.TestApplication" />
+		</classes>
+	</test> 
+	<test name="ApplicationTestFireFox">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="com.CafeTownSend.TestLogin" />  
+			<class name="com.CafeTownSend.TestApplication">
+			</class>
+		</classes>
+	</test>
+</suite> 
