@@ -136,7 +136,7 @@ public class TestLogin {
 		  driver = new ChromeDriver();
 	 
 	  } 
-	  input = new FileInputStream(getClass().getClassLoader().getResource("xpath-values.properties").getPath());
+	  input = new FileInputStream(System.getProperty("user.dir")+"/src/main/resources/xpath-values.properties");
 	  prop.load(input);
 	  driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS);
   }
